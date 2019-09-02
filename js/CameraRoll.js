@@ -73,8 +73,9 @@ export type PhotoIdentifier = {
   node: {
     type: string,
     group_name: string,
-    image: {
+    image?: {
       filename: string,
+      thumbnail?: string,
       uri: string,
       height: number,
       width: number,
